@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+float Panjang, Lebar, Luas;
+void InputData() {
+    cout << "Masukkan Panjang: ";
+    cin >> panjang;
+    cout << "Masukkan Lebar: ";
+    cin >> Lebar;
+    } 
+
+float hitungluas() {
+ return Panjang * Lebar;
+    }
+void outputdata() {
+    cout << "Luas Persegi Panjang : " << Hitungluas() << end;
+}   
+
+int min() {
+InputData();
+outputdata();
+}
